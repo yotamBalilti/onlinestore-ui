@@ -1,0 +1,52 @@
+.cart_bg{
+    display: flex;
+    justify-content: center;
+    background: url(elcapitan.jpg);
+    background-attachment: fixed;
+    width: 100vw;
+    height: fit-content;
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.form_container{
+    // border: orange 1px solid;
+    height: fit-content;
+}
+.cart{
+    width: 100%;
+    min-height: 20rem;;
+    color: lightgrey;
+    padding: 1rem;
+    background: lightgrey;
+    border-radius: 5px;
+}
+
+.cart > .form_title{
+    color: #333333;
+}
+
+table{
+    width: 100%;
+    margin-top: 2rem;
+    // border: 1px red solid;
+    color: #333333;
+}
+
+tr,td,th{
+    background: rgb(188, 190, 190);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.cart_product_title{
+    // border: 2px solid purple;
+    width: 200px;
+}
+
+.cart_product_description{
+    // border: 2px solid purple;
+    height: 100px;
+    overflow: hidden;
+}

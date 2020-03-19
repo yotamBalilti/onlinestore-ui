@@ -1,0 +1,17 @@
+.login_form{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 40%;
+}
+
+.register_link a{
+  color:  #ccc;
+  text-decoration: underline;
+  font-size: 1.9rem;
+  // text-transform: uppercase;  
+  &:hover{
+    color: #ccc;
+    letter-spacing: 1px;
+  }
+}

@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    border-top: grey 1px solid;
+    list-style: none;
+}
+
+footer h2{
+    font-size: 2rem;
+    color: lightgray;
+    text-transform: uppercase;
+}
+
+footer span{
+    font-size: 2rem;
+    color: lightgray;
+}
+
+footer li{
+    cursor: pointer;
+    color: lightgray;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i{
+    color: red;
+    // background: blue;
+    width: 40px;
+    height: 40px;
+}
+
+.fab{
+    color: green;
+    background: indigo;
+}
