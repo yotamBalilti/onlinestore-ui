@@ -1,0 +1,38 @@
+.profile_container {
+  display: flex;
+  flex-direction: row;
+  min-height: 42vh;
+//   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+  color: lightgrey;
+}
+
+.profile_form {
+  display: flex;
+  align-items: center;
+}
+
+.profile_form label{
+    color: #333333;
+}
+.photo_left {
+  background: url(profile1.jpg);
+  background-position: left;
+  border-radius: 5px 0 0 5px;
+}
+
+.photo_right {
+  background: url(profile2.jpg);
+  background-position: right;
+  border-radius: 0 5px 5px 0;
+}
+
+.profile_form_photo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  flex-grow: 1;
+}
+
+.profile_container ::placeholder {
+    color: lightgrey;
+}

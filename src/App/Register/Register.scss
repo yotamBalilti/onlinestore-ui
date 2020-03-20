@@ -8,11 +8,12 @@
   // border: 1px solid red;
   margin-top: 2rem;
   background: rgb(117, 116, 116);
-  color: #333333;
+  // color: #333333;
   margin-top: 5rem;
   border-radius: 5px;
   // min-height: 50vh;
   margin-bottom: 5rem;
+  box-shadow: 5px 10px 30px rgba(0,0,0, 0.4);
 }
 
 .register_form{
@@ -29,6 +30,7 @@ label {
   // border: 1px solid red;
   display: flex;
   justify-content: flex-start;
+  color: lightgrey;
 }
 
 .form-group { 
@@ -38,15 +40,16 @@ label {
   // position: relative;
   margin-bottom: 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  // color: #333333;
 }
 
 .form-control, input{
-  outline: none;
+  color: #ccc;
+  // outline: none;
   border: none;
   width: 100%;
   padding: 5px 0;
   font-size: 2rem;
-  color: #ccc;
   background: transparent;
 }
 
@@ -56,6 +59,7 @@ label {
   text-align: center;
   margin-bottom: 3rem;
   text-transform: uppercase;
+  color: #333333;
   margin-top: 1rem;
 }
 

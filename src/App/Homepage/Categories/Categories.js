@@ -26,7 +26,6 @@ export class Categories extends Component {
                     return <div className="card">
                         <div className="front">
                             <div className="category_name">{category.name}</div>
-                            <img className="category_thumbnail"></img>
                         </div>
                         <div className="back">
                             <div className="back-content">

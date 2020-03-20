@@ -39,14 +39,15 @@ body {
   text-align: left;
   top: 150px;
   left: 150px;
-  width: 500px;
+  width: 28%;
   font-size: 4rem;
   color: lightgray;
   // border: solid 5px black;
   &:hover{
     font-weight: bold;
     transform: translateX(50px);
-    transition: 0.5s;
+    // transition: 0.3s;
+    width: 30%;
   }
   text-shadow: black 2px 2px;
 }
